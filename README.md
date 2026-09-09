@@ -1,15 +1,32 @@
-# CYBERPULSE AI — Cybercrime Intelligence Command Center
+# 🛡️ CYBERPULSE AI — Cybercrime Intelligence Command Center
 
-Proactive **cash-withdrawal threat prediction** for I4C & banking fraud cells.
-An ML + graph + anomaly fusion engine that predicts *where* and *when*
-suspicious ATM cash-out activity is likely, explains *why* (SHAP), and drives a
-full investigation workflow (alerts → cases → PDF reports).
+> **See threats before the cash leaves the ATM.**
+
+CYBERPULSE AI is a proactive **cash-withdrawal threat prediction** platform
+built for **I4C & banking fraud cells**. It fuses **machine learning, graph
+analytics and anomaly detection** to predict *where* and *when* suspicious
+ATM cash-out activity is likely — then **explains every decision with SHAP**
+and drives a complete **alert → investigation → PDF report** workflow.
+
+**The problem:** Fraud rings move through mule accounts, reconnaissance and
+burst cash-outs in hours. Reactive monitoring is always one step behind.
+
+**The solution:** A single risk engine that anchors on an XGBoost model
+(test AUC ≈ 0.96), boosts it with anomaly + graph + temporal + history
+signals, and surfaces a 0–100 risk score with a human-readable explanation
+and a recommended action — in real time, on a live map.
+
+| | |
+|---|---|
+| 🎯 **Predict** | Next-window cash-out risk for every active ATM |
+| 🧠 **Explain** | SHAP-driven reasons for every high-risk call |
+| 🕸️ **Connect** | Entity graph linking accounts, ATMs, complaints |
+| 🗺️ **Visualize** | Live hotspot map with layer toggles & drill-down |
+| 📋 **Act** | Alerts, investigations, timelines & PDF reports |
 
 > **Disclaimer:** Prototype validated on **synthetic data** only. All entities,
 > transactions and complaints are generated — no real persons, banks or
 > institutions are represented.
-
----
 
 ## Quick start (5 minutes)
 
