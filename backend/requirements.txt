@@ -1,0 +1,27 @@
+# CYBERPULSE AI — backend dependencies
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+sqlalchemy>=2.0
+alembic>=1.13
+python-jose[cryptography]>=3.3
+passlib[bcrypt]>=1.7
+python-multipart>=0.0.9
+httpx>=0.27
+# ML runtime (shared with ml/requirements.txt)
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+# Pin below XGBoost 3: current XGBoost 3 wheels pull a very large optional
+# CUDA/NCCL package, which is unnecessary for this CPU-first demo.
+xgboost>=2.0,<3.0
+shap>=0.45
+joblib>=1.3
+# PDF report generation
+reportlab>=4.1
+# Optional extras (graceful fallbacks exist when absent):
+# psycopg2-binary  — PostgreSQL
+# neo4j            — Neo4j
+# redis            — Redis pub/sub
+# shap             — SHAP explanations (fallback: native feature importance)

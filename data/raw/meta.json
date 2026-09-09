@@ -1,0 +1,141 @@
+{
+  "dataset_version": "synthetic-v1",
+  "seed": 42,
+  "origin": "2026-07-23T00:00:00+00:00",
+  "days": 45,
+  "state": "Karnataka",
+  "n_districts": 6,
+  "n_atms": 258,
+  "n_accounts": 956,
+  "n_complaints": 124,
+  "n_transactions": 22614,
+  "n_entities": 1358,
+  "n_relationships": 1470,
+  "fraud_rings": [
+    {
+      "ring_id": "RING-01",
+      "complaint_district": "Chikkaballapura",
+      "cashout_district": "Bengaluru Urban",
+      "target_atms": [
+        "ATM-0039",
+        "ATM-0062",
+        "ATM-0072",
+        "ATM-0037"
+      ],
+      "active_days": [
+        5,
+        10
+      ],
+      "cashout_days": [
+        8,
+        9
+      ],
+      "cross_district": true,
+      "emerging": false
+    },
+    {
+      "ring_id": "RING-02",
+      "complaint_district": "Mandya",
+      "cashout_district": "Ramanagara",
+      "target_atms": [
+        "ATM-0178",
+        "ATM-0174",
+        "ATM-0189"
+      ],
+      "active_days": [
+        12,
+        17
+      ],
+      "cashout_days": [
+        15,
+        16
+      ],
+      "cross_district": true,
+      "emerging": false
+    },
+    {
+      "ring_id": "RING-03",
+      "complaint_district": "Bengaluru Rural",
+      "cashout_district": "Bengaluru Urban",
+      "target_atms": [
+        "ATM-0076",
+        "ATM-0011",
+        "ATM-0049",
+        "ATM-0017",
+        "ATM-0087"
+      ],
+      "active_days": [
+        19,
+        24
+      ],
+      "cashout_days": [
+        22,
+        23
+      ],
+      "cross_district": true,
+      "emerging": false
+    },
+    {
+      "ring_id": "RING-04",
+      "complaint_district": "Mysuru",
+      "cashout_district": "Mysuru",
+      "target_atms": [
+        "ATM-0245",
+        "ATM-0256",
+        "ATM-0242"
+      ],
+      "active_days": [
+        26,
+        31
+      ],
+      "cashout_days": [
+        29,
+        30
+      ],
+      "cross_district": false,
+      "emerging": false
+    },
+    {
+      "ring_id": "RING-05",
+      "complaint_district": "Chikkaballapura",
+      "cashout_district": "Mandya",
+      "target_atms": [
+        "ATM-0130",
+        "ATM-0129",
+        "ATM-0139",
+        "ATM-0138"
+      ],
+      "active_days": [
+        33,
+        38
+      ],
+      "cashout_days": [
+        36,
+        37
+      ],
+      "cross_district": true,
+      "emerging": false
+    },
+    {
+      "ring_id": "RING-06",
+      "complaint_district": "Bengaluru Rural",
+      "cashout_district": "Ramanagara",
+      "target_atms": [
+        "ATM-0182",
+        "ATM-0166",
+        "ATM-0171"
+      ],
+      "active_days": [
+        39,
+        45
+      ],
+      "cashout_days": [
+        42,
+        43
+      ],
+      "cross_district": true,
+      "emerging": true
+    }
+  ],
+  "disclaimer": "Synthetic data \u2014 prototype evaluation only. No real persons, banks or institutions."
+}

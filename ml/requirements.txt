@@ -1,0 +1,9 @@
+# CYBERPULSE AI — ML pipeline dependencies
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+# CPU-friendly version range; avoids the optional large CUDA/NCCL dependency.
+xgboost>=2.0,<3.0
+shap>=0.45
+joblib>=1.3
+scipy>=1.11
