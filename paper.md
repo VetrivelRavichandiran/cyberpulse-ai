@@ -16,7 +16,7 @@ affiliations:
   - name: "Independent"
     index: 1
 date: "2026-09-15"
-bibliography: paper.bib
+bibliography: references.bib
 ---
 
 # Summary
