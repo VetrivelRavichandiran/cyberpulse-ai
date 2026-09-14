@@ -11,7 +11,7 @@ tags:
   - fraud detection
 authors:
   - name: "Vetrivel Ravichandiran"
-    orcid: "TODO"
+    orcid: "0009-0000-9447-0529"
 affiliations:
   - name: "Independent"
     index: 1
