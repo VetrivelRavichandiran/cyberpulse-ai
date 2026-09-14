@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "CYBERPULSE AI"
+type: software
+abstract: >
+  CYBERPULSE AI is a cybercrime intelligence command center prototype for proactive
+  ATM cash-out threat prediction. It combines an XGBoost-based risk model with
+  anomaly and graph signals, explains predictions using SHAP, and supports an
+  alert → investigation → PDF report workflow with a live hotspot map UI.
+authors:
+  - given-names: "Vetrivel"
+    family-names: "Ravichandiran"
+    email: "vetrivelrp2005@gmail.com"
+    orcid: "https://orcid.org/TODO"
+keywords:
+  - cybercrime intelligence
+  - fraud detection
+  - ATM cash-out
+  - threat prediction
+  - anomaly detection
+  - graph analytics
+  - explainable AI
+  - SHAP
+  - XGBoost
+  - FastAPI
+  - React
+license: "TODO"
+repository-code: "TODO"
+url: "TODO"
+preferred-citation:
+  type: article
+  title: "CYBERPULSE AI: Cybercrime Intelligence Command Center for Proactive ATM Cash-Out Threat Prediction"
+  authors:
+    - given-names: "Vetrivel"
+      family-names: "Ravichandiran"
+      orcid: "https://orcid.org/TODO"
+  year: 2026
+  version: "1.0.0"
+  repository-code: "TODO"
+  url: "TODO"
+references:
+  - type: conference-paper
+    title: "XGBoost: A Scalable Tree Boosting System"
+    authors:
+      - given-names: "Tianqi"
+        family-names: "Chen"
+      - given-names: "Carlos"
+        family-names: "Guestrin"
+    year: 2016
+    doi: "10.1145/2939672.2939785"
+    url: "https://doi.org/10.1145/2939672.2939785"
+  - type: conference-paper
+    title: "A Unified Approach to Interpreting Model Predictions"
+    authors:
+      - given-names: "Scott M."
+        family-names: "Lundberg"
+      - given-names: "Su-In"
+        family-names: "Lee"
+    year: 2017
+    url: "https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html"
+  - type: software
+    title: "FastAPI"
+    authors:
+      - given-names: "Sebastián"
+        family-names: "Ramírez"
+    url: "https://fastapi.tiangolo.com/"
