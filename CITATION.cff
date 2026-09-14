@@ -24,7 +24,7 @@ keywords:
   - XGBoost
   - FastAPI
   - React
-license: "TODO"
+license: "MIT"
 repository-code: "TODO"
 url: "TODO"
 preferred-citation:
